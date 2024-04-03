@@ -7,7 +7,7 @@
     "settingsSync.ignoredSettings": [],
     "editor.fontLigatures": false,
 
-
+    "latex-workshop.latex.autoBuild.run": "onSave",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
