@@ -1,1 +1,6 @@
+globalStorage/*
 History/*
+profiles/*
+snippets/*
+workspaceStorage/*
+locale.json
