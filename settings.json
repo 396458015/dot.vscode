@@ -1,79 +1,27 @@
 {
+    "workbench.colorTheme": "One Dark Pro",
+
+    // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Delugia Mono, 'LXGW WenKai Mono', monospace",
+    "editor.fontSize": 18,
+    "editor.mouseWheelZoom": true,
+    "editor.fontLigatures": false,
+
+    "settingsSync.ignoredSettings": [],
+
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "yapf",
     "python.linting.flake8Args": ["--max-line-length=248"],
     "python.linting.pylintEnabled": false,
-    "editor.fontSize": 18,
-    "settingsSync.ignoredSettings": [],
-    "editor.fontLigatures": false,
 
-    "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.recipe.default": "lastUsed",
     "latex-workshop.latex.recipes": [
         {
-            "name": "latexmk",
-            "tools": [
-                "latexmk"
-            ]
-        },
-        {
-            "name": "latexmk (latexmkrc)",
-            "tools": [
-                "latexmk_rconly"
-            ]
-        },
-        {
-            "name": "latexmk (lualatex)",
-            "tools": [
-                "lualatexmk"
-            ]
-        },
-        {
-            "name": "latexmk (xelatex)",
-            "tools": [
-                "xelatexmk"
-            ]
-        },
-        {
-            "name": "pdflatex -> bibtex -> pdflatex * 2",
-            "tools": [
-                "pdflatex",
-                "bibtex",
-                "pdflatex",
-                "pdflatex"
-            ]
-        },
-        {
           "name": "xelatexmk -> bibtex -> xelatexmk*2",
           "tools": ["xelatexmk", "bibtex", "xelatexmk", "xelatexmk"]
-        },
-        {
-            "name": "Compile Rnw files",
-            "tools": [
-                "rnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "Compile Jnw files",
-            "tools": [
-                "jnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "Compile Pnw files",
-            "tools": [
-                "pnw2tex",
-                "latexmk"
-            ]
-        },
-        {
-            "name": "tectonic",
-            "tools": [
-                "tectonic"
-            ]
         }
-    ]
+    ],
+
 
 }
