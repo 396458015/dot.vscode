@@ -9,6 +9,20 @@
 
     "settingsSync.ignoredSettings": [],
 
+    "editor.minimap.showSlider": "always",
+    "editor.cursorBlinking": "solid",  // 光标闪烁 solid expand smooth explicit phase
+    "editor.cursorSmoothCaretAnimation": "on",  // 让光标移动、插入变得平滑
+    "editor.smoothScrolling": true,  // 启用编辑器平滑滚动动画。
+    "editor.wordWrap": "on",  // 打开编辑器自动换行。
+    "editor.renderWhitespace": "boundary",  // 将编辑器中的空格渲染为·，并隐藏字词之间的单个空格。
+
+    // 滑块颜色
+    "workbench.colorCustomizations": {
+        "scrollbarSlider.background": "#abb2bf", // 设置滑条颜色
+        "scrollbarSlider.hoverBackground": "#c3c4c7", // 设置鼠标悬停时滑条颜色
+        "scrollbarSlider.activeBackground": "#c3c4c7" // 设置滑条被点击时颜色
+    },
+
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "yapf",
     "python.linting.flake8Args": ["--max-line-length=248"],
@@ -23,8 +37,8 @@
     "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",  // 逆向搜索
     "latex-workshop.latex.recipes": [
         {
-          "name": "xelatexmk -> bibtex -> xelatexmk*2",
-          "tools": ["xelatexmk", "bibtex", "xelatexmk", "xelatexmk"]
+            "name": "xelatexmk -> bibtex -> xelatexmk*2",
+            "tools": ["xelatexmk", "bibtex", "xelatexmk", "xelatexmk"]
         },
 		{
 			"name": "latexmk (xelatex)",
@@ -35,6 +49,12 @@
             "tools": ["bibtex"]
         }
     ],
+
+
+    // ================= 插件配置 =================
+    // 透明度
+    "glassit.alpha": 255,
+    "glassit.step": 10,
 
 
 }
