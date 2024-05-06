@@ -12,15 +12,18 @@
       Ctrl + y         : 反撤销  
       Alt + z          : 自动换行  
       Alt + /          : 注释行  
+      Ctrl + Shift + k : 删除一行  
 
       透明
-      Alt + ,          : 透明增加
-      Alt + .          : 透明减小
-      Ctrl + Alt + ,   : 透明最大化
-      Ctrl + Alt + .   : 透明最小化
+      Alt + ,          : 透明增加  
+      Alt + .          : 透明减小  
+      Ctrl + Alt + ,   : 透明最大化  
+      Ctrl + Alt + .   : 透明最小化  
 
       LaTeX
       Alt + b     : LaTeX编译  
-      Alt + s     : 正向搜索  
-      双标双击PDF : 逆向搜索  
+      Alt + s     : 正向搜索定位  
+      双标双击PDF : 逆向搜索定位  
       Alt + v     : PDF预览  
+
+      Ctrl + i    : 代码片段预览  
