@@ -9,7 +9,7 @@
 快捷键:  
 
       Ctrl + z         : 撤销  
-      Ctrl + y         : 反撤销  
+      Ctrl + u         : 反撤销  
       Alt + z          : 自动换行  
       Alt + /          : 注释行  
       Ctrl + Shift + k : 删除一行  
