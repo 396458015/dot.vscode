@@ -8,6 +8,9 @@
 
 快捷键:  
 
+      Ctrl + Shift + k : 删除当前行  
+      Ctrl + c         : 复制当前行  
+
       Ctrl + z         : 撤销  
       Ctrl + u         : 反撤销  
       Alt + z          : 自动换行  
