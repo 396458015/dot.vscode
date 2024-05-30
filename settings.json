@@ -2,6 +2,7 @@
     "workbench.colorTheme": "One Dark Pro",
 
     // "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    // "editor.fontFamily": "Delugia Mono, '宋体', monospace",
     "editor.fontFamily": "Delugia Mono, 'LXGW WenKai Mono', monospace",
     "editor.fontSize": 18,
     "editor.mouseWheelZoom": true,
@@ -15,6 +16,7 @@
     "editor.smoothScrolling": true,  // 启用编辑器平滑滚动动画。
     "editor.wordWrap": "on",  // 打开编辑器自动换行。
     "editor.renderWhitespace": "boundary",  // 将编辑器中的空格渲染为·，并隐藏字词之间的单个空格。
+    "editor.suggest.showStatusBar": true,
 
     // 滑块颜色
     "workbench.colorCustomizations": {
@@ -27,6 +29,8 @@
     "python.formatting.provider": "yapf",
     "python.linting.flake8Args": ["--max-line-length=248"],
     "python.linting.pylintEnabled": false,
+
+    "editor.snippetSuggestions": "top",  // snippetSuggestion显示
 
     "latex-workshop.showContextMenu": true,
     "latex-workshop.message.error.show": true,
@@ -55,6 +59,47 @@
     // 透明度
     "glassit.alpha": 255,
     "glassit.step": 10,
+    "autopunc.dictionary": {
+        "。": ".",
+        "，": ",",
+        "：": ":",
+        "；": ";",
+        "！": "!",
+        "“": "\"",
+        "”": "\"",
+        "‘": "'",
+        "’": "'",
+        "（": "(",
+        "）": ")",
+        "【": "[",
+        "】": "]",
+        "》": ">",
+        "《": "<",
+        "…": "^",
+        "￥": "$",
+        "、": "/",
+        "？": "?",
+        "·": "`",
+        "—": "_"
+    },
 
-
+    // todo-tree
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^|%|\\\\)\\s*($TAGS)\\{*|^\\s*- \\[ \\])",
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "iconColour": "yellow",
+            "foreground": "#1f202e",
+            "background": "yellow",
+        },
+        "[ ]": {
+            "iconColour": "#fb2874",
+            "foreground": "#1f202e",
+            "background": "#fb2874",
+        },
+        "[x]": {
+            "iconColour": "#0ac40a",
+            "foreground": "#1f202e",
+            "background": "#0ac40a",
+        },
+    },
 }
