@@ -102,4 +102,5 @@
             "background": "#0ac40a",
         },
     },
+    "workbench.iconTheme": "vscode-icons",
 }
