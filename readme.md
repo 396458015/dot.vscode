@@ -30,3 +30,7 @@
       Alt + v     : PDF预览  
 
       Ctrl + i    : 代码片段预览  
+
+      终端
+      Alt + t     : 终端  
+
