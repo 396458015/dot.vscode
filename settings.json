@@ -1,15 +1,14 @@
 {
-    "workbench.colorTheme": "One Dark Pro",
-
-    // "editor.fontFamily": "Consolas, 'Courier New', monospace",
-    // "editor.fontFamily": "Delugia Mono, '宋体', monospace",
+    "workbench.colorTheme": "Tiny Light",
     "editor.fontFamily": "Delugia Mono, 'LXGW WenKai Mono', monospace",
+    // "editor.fontFamily": "Delugia Mono, '宋体', monospace",
+
     "editor.fontSize": 18,
+    "editor.lineHeight": 32,
+
     "editor.mouseWheelZoom": true,
     "editor.fontLigatures": false,
-
     "settingsSync.ignoredSettings": [],
-
     "editor.minimap.showSlider": "always",
     "editor.cursorBlinking": "solid",  // 光标闪烁 solid expand smooth explicit phase
     "editor.cursorSmoothCaretAnimation": "on",  // 让光标移动、插入变得平滑
@@ -103,4 +102,52 @@
         },
     },
     "workbench.iconTheme": "vscode-icons",
+
+    // Tiny Light 主题颜色
+    // 修改背景较黄的颜色,基于"Github Light Theme"修改
+    // 绿色:#ecfaee, paper:#eeeeee
+    "workbench.colorCustomizations": {
+        "[Tiny Light]": {
+            "editor.foreground": "#499504ff",
+            "editor.background": "#eeeeee",
+		    "editor.selectionBackground": "#fed442",
+		    // "editor.selectionBackground": "#cbdbf0",
+		    // "editor.selectionBackground": "#d7d4ef",
+
+            "statusBar.background": "#eeeeee",
+            "statusBar.noFolderBackground": "#eeeeee",
+            "statusBar.debuggingForeground": "#eeeeee",
+
+            "sideBar.background": "#eeeeee",
+            "titleBar.activeBackground": "#eeeeee",
+            "editorWidget.background": "#eeeeee",
+
+            "tab.activeBackground": "#eeeeee",
+            "tab.border": "#eeeeee",
+            "tab.inactiveBackground": "#eeeeee",
+            "tab.activeBackground": "#CFCFCF",
+
+    		"list.activeSelectionBackground": "#e3e3e3",
+    		"list.activeSelectionForeground": "#d73a49",
+		    "list.inactiveSelectionBackground": "#e3e3e3",
+		    "list.inactiveSelectionForeground": "#d73a49",
+    		"list.hoverBackground": "#e3e3e3",
+
+            "focusBorder": "#eeeeee",
+            "input.background": "#eeeeee",
+            "panel.border": "#eeeeee",
+            "activityBar.background": "#eeeeee",
+            "activityBar.dropBackground": "#eeeeee",
+            "statusBarItem.prominentBackground": "#eeeeee",
+
+            "activityBarBadge.background": "#d73a49",
+            "button.background": "#d73a49",
+            "badge.background": "#c4c4c4",
+
+            "dropdown.background": "#eeeeee",
+            "editorGroupHeader.tabsBackground": "#eeeeee",
+
+            "terminal.background": "#eeeeee",
+        }
+    },
 }
