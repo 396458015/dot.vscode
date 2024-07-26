@@ -150,4 +150,5 @@
             "terminal.background": "#eeeeee",
         }
     },
+    "terminal.integrated.allowChords": false,
 }
