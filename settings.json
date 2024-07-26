@@ -17,6 +17,8 @@
     "editor.renderWhitespace": "boundary",  // 将编辑器中的空格渲染为·，并隐藏字词之间的单个空格。
     "editor.suggest.showStatusBar": true,
 
+    "workbench.list.horizontalScrolling": true,  // 树状图水平滚动
+
     // 滑块颜色
     "workbench.colorCustomizations": {
         "scrollbarSlider.background": "#abb2bf", // 设置滑条颜色
