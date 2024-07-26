@@ -24,7 +24,7 @@
       Ctrl + Alt + .   : 透明最小化  
 
       LaTeX
-      Alt + b     : LaTeX编译  
+      F5          : LaTeX编译  
       Alt + s     : 正向搜索定位  
       双标双击PDF : 逆向搜索定位  
       Alt + v     : PDF预览  
