@@ -32,5 +32,6 @@
       Ctrl + i    : 代码片段预览  
 
       终端
-      Alt + t     : 终端  
+      Alt + t     : toggle终端  
+      Alt + m     : toggle终端面板(最大化/初始)  
 
