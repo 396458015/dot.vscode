@@ -153,4 +153,5 @@
         }
     },
     "terminal.integrated.allowChords": false,
+    "terminal.integrated.minimumContrastRatio": 1,
 }
