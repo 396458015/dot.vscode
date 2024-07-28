@@ -6,6 +6,10 @@
     "editor.fontSize": 18,
     "editor.lineHeight": 32,
 
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.minimumContrastRatio": 1,
+
     "editor.mouseWheelZoom": true,
     "editor.fontLigatures": false,
     "settingsSync.ignoredSettings": [],
@@ -152,6 +156,4 @@
             "terminal.background": "#eeeeee",
         }
     },
-    "terminal.integrated.allowChords": false,
-    "terminal.integrated.minimumContrastRatio": 1,
 }
