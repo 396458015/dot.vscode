@@ -2,12 +2,14 @@
     "workbench.colorTheme": "Tiny Light",
     // "editor.fontFamily": "'Delugia Mono', 'LXGW WenKai Mono', monospace",
     // "editor.fontFamily": "'Delugia Mono', '宋体', monospace",
+    // "editor.fontFamily": "'Delugia Mono', 'InconsolataGo QiHei NF', monospace",
     "editor.fontFamily": "'Delugia Mono', 'Zhuque Fangsong (technical preview) Regular', monospace",
     "editor.fontSize": 19,
     "editor.lineHeight": 32,
     // "editor.fontWeight":"500",
 
     // "terminal.integrated.fontFamily":"'Delugia Mono', 'LXGW WenKai Mono', monospace",
+    // "terminal.integrated.fontFamily":"'Delugia Mono', 'InconsolataGo QiHei NF', monospace",
     "terminal.integrated.fontFamily":"'Delugia Mono', 'Zhuque Fangsong (technical preview) Regular', monospace",
     "terminal.integrated.fontSize": 19,
     "terminal.integrated.allowChords": false,
@@ -117,9 +119,11 @@
     // 绿色:#ecfaee, paper:#eeeeee, 黄色:#fffbe7
     "workbench.colorCustomizations": {
         "[Tiny Light]": {
-            "editor.foreground": "#499504ff",
-            "editor.background": "#eeeeee",
+            // "editor.foreground": "#499504ff",  //绿色字体
+            // "editor.foreground": "#4c4f69",  //黑色字体(同catppuccin-Latte)
+            "editor.foreground": "#000000",  //纯黑色字体
 
+            "editor.background": "#eeeeee",
             "editor.lineHighlightBackground": "#eeeeee",
             "editor.lineHighlightBorder": "#eeeeee",
 
