@@ -116,6 +116,19 @@
         "[Tiny Light]": {
             "editor.foreground": "#499504ff",
             "editor.background": "#eeeeee",
+
+            "editor.lineHighlightBackground": "#eeeeee",
+            "editor.lineHighlightBorder": "#eeeeee",
+
+            "editor.wordHighlightBackground": "#eeeeee",
+            "editor.wordHighlightBorder": "#eeeeee",
+
+            "editor.findMatchBackground": "#40a02b",
+            "editor.findMatchBackground": "#d20f44",
+            "editor.findMatchForeground": "#ffffff",
+            "editor.findMatchHighlightBackground": "#40a02b",
+            "editor.findMatchHighlightForeground": "#ffffff",
+
 		    "editor.selectionBackground": "#fed442",
 		    // "editor.selectionBackground": "#cbdbf0",
 		    // "editor.selectionBackground": "#d7d4ef",
