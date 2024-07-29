@@ -175,5 +175,15 @@
     {
         "key": "alt+m",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "alt+e",
+        "command": "workbench.view.extension.latex-workshop-activitybar",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled"
+    },
+    {
+        "key": "ctrl+alt+x",
+        "command": "-workbench.view.extension.latex-workshop-activitybar",
+        "when": "!config.latex-workshop.bind.altKeymap.enabled"
     }
 ]
