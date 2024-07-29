@@ -111,7 +111,7 @@
 
     // Tiny Light 主题颜色
     // 修改背景较黄的颜色,基于"Github Light Theme"修改
-    // 绿色:#ecfaee, paper:#eeeeee
+    // 绿色:#ecfaee, paper:#eeeeee, 黄色:#fffbe7
     "workbench.colorCustomizations": {
         "[Tiny Light]": {
             "editor.foreground": "#499504ff",
