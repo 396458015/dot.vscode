@@ -1,12 +1,15 @@
 {
     "workbench.colorTheme": "Tiny Light",
-    "editor.fontFamily": "Delugia Mono, 'LXGW WenKai Mono', monospace",
-    // "editor.fontFamily": "Delugia Mono, '宋体', monospace",
-
-    "editor.fontSize": 18,
+    // "editor.fontFamily": "'Delugia Mono', 'LXGW WenKai Mono', monospace",
+    // "editor.fontFamily": "'Delugia Mono', '宋体', monospace",
+    "editor.fontFamily": "'Delugia Mono', 'Zhuque Fangsong (technical preview) Regular', monospace",
+    "editor.fontSize": 19,
     "editor.lineHeight": 32,
+    // "editor.fontWeight":"500",
 
-    "terminal.integrated.fontSize": 18,
+    // "terminal.integrated.fontFamily":"'Delugia Mono', 'LXGW WenKai Mono', monospace",
+    "terminal.integrated.fontFamily":"'Delugia Mono', 'Zhuque Fangsong (technical preview) Regular', monospace",
+    "terminal.integrated.fontSize": 19,
     "terminal.integrated.allowChords": false,
     "terminal.integrated.minimumContrastRatio": 1,
 
