@@ -36,3 +36,6 @@
       Alt + t     : toggle终端  
       Alt + m     : toggle终端面板(最大化/初始)  
 
+      代码格式化
+      Shift + Alt + f: 格式化整个文档
+      Ctrl+k Ctrl+f  : 格式化选定区域
