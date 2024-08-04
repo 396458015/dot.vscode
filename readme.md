@@ -39,3 +39,8 @@
       代码格式化
       Shift + Alt + f: 格式化整个文档
       Ctrl+k Ctrl+f  : 格式化选定区域
+
+      快速选取括号内容
+      Ctrl + w         : 选取括括号内的内容
+      Ctrl + Shift + w : 撤销选取括括号内的内容
+
