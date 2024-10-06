@@ -42,13 +42,84 @@
 
     "editor.snippetSuggestions": "top",  // snippetSuggestion显示
 
+
+    "security.workspace.trust.enabled": false,
+    "window.dialogStyle": "custom",
+
+
+    // ****************
+    //		LaTeX
+    // ****************
+    "files.associations": {
+        "*.sty": "latex-expl3",
+        "*.cls": "latex-expl3"
+    },
     "latex-workshop.showContextMenu": true,
     "latex-workshop.message.error.show": true,
     "latex-workshop.message.warning.show": false,
     "latex-workshop.latex.autoBuild.run": "never",
     "latex-workshop.latex.recipe.default": "lastUsed",
-    "latex-workshop.view.autoFocus.enabled": true,
-    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",  // 逆向搜索
+    "latex-workshop.latexindent.path": "latexindent",
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.latex.clean.method": "glob",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.abs",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.aux",
+        "*.bak",
+        "*.bbl",
+        "*.bcf",
+        "*.blg",
+        "*.col",
+        "*.con",
+        "*.cor",
+        "*.DS_Store",
+        "*.fdb_latexmk",
+        "*.fls",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.gz",
+        "*.idx",
+        "*.ilg",
+        "*.ind",
+        "*.loc",
+        "*.lof",
+        "*.log",
+        "*.los",
+        "*.lot",
+        "*.nav",
+        "*.nlo",
+        "*.nls",
+        "*.out",
+        "*.pdfsync",
+        "*.sav",
+        "*.sgl",
+        "*.sgn",
+        "*.sgr",
+        "*.slg",
+        "*.sll",
+        "*.sln",
+        "*.slo",
+        "*.slr",
+        "*.sls",
+        "*.snm",
+        "*.soc",
+        "*.spl",
+        "*.synctex",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "*.thm",
+        "*.toc",
+        "*.toe",
+        "*.xdv",
+        "*.xdy",
+        "*.xml",
+        "*.xwm",
+    ],
+
     "latex-workshop.latex.recipes": [
         {
             "name": "xelatexmk -> bibtex -> xelatexmk*2",
@@ -326,4 +397,12 @@
             "terminal.background": "#eeeeee",
         },
     },
+    "cSpell.userWords": [
+        "ABAQUS",
+        "ijkl",
+        "pqrs"
+    ],
+    "cSpell.ignoreWords": [
+        "绪论"
+    ],
 }
